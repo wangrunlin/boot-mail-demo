@@ -18,12 +18,11 @@
 
 ## 注意 ⚠️
 
-将此项目集成到自己的项目时，请修改 username 和 password
+将此项目集成到自己的项目时，请修改 `username` 和 `password`
 
 
 ## 最简化代码
 
-方法 1
 ```java
 import org.junit.jupiter.api.Test;
 import org.springframework.mail.SimpleMailMessage;
