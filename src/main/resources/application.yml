@@ -1,0 +1,12 @@
+server:
+  port: 9750
+
+spring:
+  mail:
+    host: smtp.feishu.cn
+    username: test@alin.run
+    password: JkqXELTWMYSzaVaq
+
+    to: leo@alin.run
+    subject: 测试
+    text: 测试内容
