@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 主页控制器
  *
- * @see com.wangrunlin.maildemo.service.MailService
+ * @see com.wangrunlin.maildemo.controller.MailController
  * @author Leo[leo@wangrunlin.com]
  */
 @RestController
@@ -14,7 +14,8 @@ public class IndexController {
 
     @RequestMapping({"", "index*"})
     public String index() {
-        return "Please request /send";
+        return "<p>请访问请求 <a href='/send'>/send</a></p>" +
+                "<p><a href='https://github.com/wangrunlin/boot-mail-demo'>项目地址</a></p>";
     }
 
 }

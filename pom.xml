@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.wangrunlin</groupId>
 	<artifactId>maildemo</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>mail-demo</name>
 	<description>邮件发送演示</description>
 

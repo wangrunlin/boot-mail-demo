@@ -1,6 +1,5 @@
 package com.wangrunlin.maildemo;
 
-import com.wangrunlin.maildemo.property.MailProperty;
 import org.junit.jupiter.api.Test;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
